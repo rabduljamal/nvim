@@ -24,3 +24,4 @@ vim.opt.cmdheight = 1
 vim.opt.laststatus = 2
 vim.opt.expandtab = true
 vim.opt.relativenumber = false
+vim.g.deprecation_warnings = true
