@@ -1,5 +1,7 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme oneDarkPro]])
 vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 vim.opt.wrap = true -- Mengaktifkan line wrapping
@@ -21,3 +23,4 @@ vim.opt.showcmd = true
 vim.opt.cmdheight = 1
 vim.opt.laststatus = 2
 vim.opt.expandtab = true
+vim.opt.relativenumber = false
